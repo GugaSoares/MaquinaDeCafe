@@ -1,0 +1,13 @@
+C:\Users\gusta\source\repos\MaquinaDeCafe\MaquinaDeCafe\bin\Debug\netcoreapp3.1\MaquinaDeCafe.exe
+C:\Users\gusta\source\repos\MaquinaDeCafe\MaquinaDeCafe\bin\Debug\netcoreapp3.1\MaquinaDeCafe.deps.json
+C:\Users\gusta\source\repos\MaquinaDeCafe\MaquinaDeCafe\bin\Debug\netcoreapp3.1\MaquinaDeCafe.runtimeconfig.json
+C:\Users\gusta\source\repos\MaquinaDeCafe\MaquinaDeCafe\bin\Debug\netcoreapp3.1\MaquinaDeCafe.runtimeconfig.dev.json
+C:\Users\gusta\source\repos\MaquinaDeCafe\MaquinaDeCafe\bin\Debug\netcoreapp3.1\MaquinaDeCafe.dll
+C:\Users\gusta\source\repos\MaquinaDeCafe\MaquinaDeCafe\bin\Debug\netcoreapp3.1\MaquinaDeCafe.pdb
+C:\Users\gusta\source\repos\MaquinaDeCafe\MaquinaDeCafe\obj\Debug\netcoreapp3.1\MaquinaDeCafe.csprojAssemblyReference.cache
+C:\Users\gusta\source\repos\MaquinaDeCafe\MaquinaDeCafe\obj\Debug\netcoreapp3.1\MaquinaDeCafe.AssemblyInfoInputs.cache
+C:\Users\gusta\source\repos\MaquinaDeCafe\MaquinaDeCafe\obj\Debug\netcoreapp3.1\MaquinaDeCafe.AssemblyInfo.cs
+C:\Users\gusta\source\repos\MaquinaDeCafe\MaquinaDeCafe\obj\Debug\netcoreapp3.1\MaquinaDeCafe.csproj.CoreCompileInputs.cache
+C:\Users\gusta\source\repos\MaquinaDeCafe\MaquinaDeCafe\obj\Debug\netcoreapp3.1\MaquinaDeCafe.dll
+C:\Users\gusta\source\repos\MaquinaDeCafe\MaquinaDeCafe\obj\Debug\netcoreapp3.1\MaquinaDeCafe.pdb
+C:\Users\gusta\source\repos\MaquinaDeCafe\MaquinaDeCafe\obj\Debug\netcoreapp3.1\MaquinaDeCafe.genruntimeconfig.cache
