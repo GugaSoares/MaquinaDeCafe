@@ -20,16 +20,14 @@ namespace MaquinaDeCafe
         }
 
 
-        public double SaldoDeCompra(double moeda5, double moeda10, double moeda25, double moeda50, double moeda100)
+        public void SaldoDeCompra(double moeda10, double moeda25, double moeda50, double moeda100)
         {
-            moeda5 *= 0.5;
             moeda10 *= 0.10;
             moeda25 *= 0.25;
             moeda50 *= 0.50;
-            moeda100 *= 1.0;
-            double somaDasMoedas = moeda5 + moeda10 + moeda25 + moeda50 + moeda100;
+            moeda100 *= 1.00;
+            double somaDasMoedas = moeda10 + moeda25 + moeda50 + moeda100;
             Saldo = Saldo + somaDasMoedas;
-            return Saldo;
         }
         public void CafeTroco (string cafeSelecionado)
         {

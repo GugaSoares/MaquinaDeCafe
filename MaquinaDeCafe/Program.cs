@@ -68,7 +68,7 @@ namespace MaquinaDeCafe
 
             Cafe c = new Cafe(0.0, 3.5, 4.0, 3.0);
 
-            double saldoDeCompra = c.SaldoDeCompra(moeda5, moeda10, moeda25, moeda50, moeda100);
+            c.SaldoDeCompra(moeda10, moeda25, moeda50, moeda100);
             Console.WriteLine("Seu saldo de compra é: " + c.Saldo.ToString("F2", CultureInfo.InvariantCulture));
             if (c.Saldo >= 4.0)
             {
@@ -98,9 +98,9 @@ namespace MaquinaDeCafe
             string cafeCliente = Console.ReadLine();
             c.CafeTroco(cafeCliente);
             Console.WriteLine();
-            Console.WriteLine($"Ok, você escolheu o café {cafeCliente}, aguarde enquanto preparamos para você...");
+            Console.WriteLine($"Ok, o seu {cafeCliente.ToLower()} já está sendo preparado, aguarde alguns segundos...");
             Console.WriteLine();
-            System.Threading.Thread.Sleep(5000);
+            System.Threading.Thread.Sleep(10000);
             if (c.Saldo == 0.0)
             {
                 Console.WriteLine("Está pronto seu café, aproveite!!!");
