@@ -20,8 +20,8 @@ namespace MaquinaDeCafe
                 Console.WriteLine();
                 Console.WriteLine("Erro na leitora de moedas! (Esta maquina temporariamente não aceita este valor em moeda)");
                 Console.Write("Deseja continuar (Sim / Não)? ");
-                string resp = Console.ReadLine();
-                if (resp == "Sim" || resp == "sim")
+                string resp = Console.ReadLine().ToLower();
+                if (resp == "sim")
                 {
 
                 }
@@ -38,8 +38,8 @@ namespace MaquinaDeCafe
                 Console.WriteLine();
                 Console.WriteLine("Erro na leitora de moedas! (Esta maquina temporariamente não aceita este valor em moeda)");
                 Console.Write("Deseja continuar (Sim / Não)? ");
-                string resp = Console.ReadLine();
-                if (resp == "Sim" || resp == "sim")
+                string resp = Console.ReadLine().ToLower();
+                if (resp == "sim")
                 {
 
                 }
@@ -80,12 +80,14 @@ namespace MaquinaDeCafe
             else if (c.Saldo >= 3.5)
             {
                 Console.WriteLine("Cafés disponiveis para compra: ");
+                Console.WriteLine();
                 Console.WriteLine("Cappuccino (R$ 3.5)");
                 Console.WriteLine("Café com leite (R$ 3.0)");
             }
             else if (c.Saldo >= 3.0)
             {
                 Console.WriteLine("Café disponivel para compra: ");
+                Console.WriteLine();
                 Console.WriteLine("Café com leite (R$ 3.0)");
             }
             else
@@ -95,10 +97,10 @@ namespace MaquinaDeCafe
             }
             Console.WriteLine();
             Console.Write("Qual café você deseja? ");
-            string cafeCliente = Console.ReadLine();
+            string cafeCliente = Console.ReadLine().ToLower();
             c.CafeTroco(cafeCliente);
             Console.WriteLine();
-            Console.WriteLine($"Ok, o seu {cafeCliente.ToLower()} já está sendo preparado, aguarde alguns segundos...");
+            Console.WriteLine($"Ok, o seu {cafeCliente} já está sendo preparado, aguarde alguns segundos...");
             Console.WriteLine();
             System.Threading.Thread.Sleep(10000);
             if (c.Saldo == 0.0)

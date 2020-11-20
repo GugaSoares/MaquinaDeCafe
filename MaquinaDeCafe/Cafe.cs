@@ -40,12 +40,13 @@ namespace MaquinaDeCafe
             {
                 Saldo -= Mocha;
             }
-            else if (cafeSelecionado == "cafe com leite" || cafeSelecionado == "cafecomleite")
+            else if (cafeSelecionado == "cafe com leite" || cafeSelecionado == "café com leite")
             {
                 Saldo -= CafeComLeite;
             }
             else
             {
+                Console.WriteLine("Nenhum café disponível selecionado");
                 return;
             }
         }
